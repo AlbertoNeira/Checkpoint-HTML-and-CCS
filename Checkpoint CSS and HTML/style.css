@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    height: 1000px;
+}
+
+.container{
+    background-color: grey;
+    margin: 0.5%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    ;
+}
+
+.sidebox{
+    display: flex;
+    background-color: rgb(67, 66, 66);
+    width: 15%;
+    
+
+}
+
+.avatar{
+
+padding: 15%;
+}
+img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 70%;
+    gap: 40px;
+    margin:1%;
+
+}
+
+
+
+.topbox{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(67, 66, 66);
+    height: 400px;
+    width: 100%;
+    gap: 100px;
+    
+    
+    align-items: center;
+    justify-content: center;
+}  
+
+.button1{
+    
+    border-radius: 7%;
+    width: 150px;
+    height: 50px;
+    margin-right: 70%; 
+    margin-bottom:3%;
+    font-size: 20px;
+    color: blue;
+    border-color: gray;
+
+    background-color: gray;
+}
+
+.button2{
+   
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    color: grey;
+    background: white;
+    background-color: white;
+   
+    
+}
+
+.button3{
+   background: white;
+   background-color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 75%; 
+    border-radius: 5%;
+    font-size: 20px;
+    color: blue;
+}
+
+.botbox{
+    
+     display: flex;
+    flex-direction: row;
+    background-color: rgb(67, 66, 66);
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 200px;
+}
+
+a{
+    color: black;
+}
